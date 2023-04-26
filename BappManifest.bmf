@@ -1,0 +1,12 @@
+Uuid: b324647b6efa4b6a8f346389730df160
+ExtensionType: 1
+Name: Copy As Jsoup-Requests
+RepoName: burp-jsoup
+ScreenVersion: 0.2.4
+SerialVersion: 6
+MinPlatformVersion: 0
+ProOnly: False
+Author: Andras Veres-Szentkiralyi; Guilherme Leite
+ShortDescription: Copies selected request(s) as Java's Jsoup Requests.
+EntryPoint: burp-jsoup.jar
+BuildCommand: curl -o burp-extender-api.jar http://repo1.maven.org/maven2/net/portswigger/burp/extender/burp-extender-api/1.7.13/burp-extender-api-1.7.13.jar && ant
